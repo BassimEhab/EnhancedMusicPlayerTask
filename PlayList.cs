@@ -167,7 +167,7 @@ namespace EnhancedMusicPlayerTask
                 {
                     Lists[playListName].Remove(song);
                     playCount[playListName].Remove(song);
-                    Console.WriteLine($"❌ {song} was removed from {playListName} due to exceeding play limit.");
+                    Console.WriteLine($" {song} was removed from {playListName} due to exceeding play limit.");
                 }
             }
         }
